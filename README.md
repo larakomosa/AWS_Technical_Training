@@ -1,17 +1,18 @@
 # AWS_Technical_Training
+## General
 
-## Goal: To be able to articulate the value of key AWS service and features, including:
+#### Goal: To be able to articulate the value of key AWS service and features, including:
 - Cloud computing overviews
 - AWS core technologies
 - Breadth and Depth of AWS Services and Offerings
 	
-### What is Cloud: 
+#### What is Cloud: 
 - The cloud provides access to the same or similar resources through internet, as hosted by a cloud services platform.  The term itself comes from a time when internet resources or connectivity was often represented by a cloud in diagrams that illustrated connectivity and data flow.
 
-### What is Cloud Computing: 
+#### What is Cloud Computing: 
 - Cloud computing is on-demand delivery of compute power, database, storage, applications and other IT resources via the Internet with pay as you go pricing.
 	
-### Advantages to Cloud Computing:
+#### Advantages to Cloud Computing:
 - Trade capital expense for variable expense
 - Benefit from massive economies of scale
 - Stop guessing capacity
@@ -19,19 +20,24 @@
 - Stop spending money running and maintaining data centers
 - Go Global in minutes 
 	
-## AWS Intro
+#### AWS Intro
 - Broad portfolio of global cloud-based products including compute, storage, databases, analytics, networking, mobile developer tools, management tools, ITO, security and enterprise applications that is on demand, available as you go pricing.
 - This allows business to access the building blocks they need to respond quickly to changing business requirements.
 - Cloud offered on-demand delivery of IT, with pay as you go pricing, instead of costly up from investments.  On top of that, AWS offers a huge range of features and services to help customers solve business challenges and achieve their goals.
 	
-## Infrastructure
+#### Infrastructure
 - Each region is designed to be completely isolated from other regions.  
 - Within each region is a separate geographic area know as AZ (availability zones)- Each AZ is isolated from each other AZ's within a region
 - High-Speed, low latency connection between AZs within a region.
 - POP consist of Edge locations and Regional Edge Cache servers.  The locations used by Amazon CloudFront to securely deliver data, videos, application and APIs to customers globally.
 	
 ## AWS Core Technologies
-	- Compute, Storage, Database, Security, Management, Networking
+- Compute
+- Storage
+- Database
+- Security
+- Management
+- Networking
 
 ### Compute Services
 - Develop, deploy, run and scale workloads in the AWS Cloud
@@ -89,7 +95,7 @@
 ## Storage:
 - A reliable, scalable and secure place for Data
 
-### Services
+#### Services
 - Amazon Elastic Block Store - Persistent level storage
 - Amazon S3 - Durable, scalable object storage
 - Amazon S3 Glacier - Data archiving and back up 
