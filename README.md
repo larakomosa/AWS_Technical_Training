@@ -148,87 +148,87 @@
 - Need features of specific application
 
 ## Networking
-	- Isolate cloud infrastructure and scale request-handling capacity
+- Isolate cloud infrastructure and scale request-handling capacity
 	
 ### Options
-	- Amazon VPC 
-		○ Build a virtual network in the cloud
-	- Security Groups
-		○ Control Access to instances
-	- Network Access Control List (NACL)
-		○ Contol access to subnets
-	- Amazon Route 53
-		○ Route end users to internet applications 
+- Amazon VPC 
+	- Build a virtual network in the cloud
+- Security Groups
+	- Control Access to instances
+- Network Access Control List (NACL)
+	- Contol access to subnets
+- Amazon Route 53
+	- Route end users to internet applications 
 
 #### Amazon Virtual Private Cloud
-	- Networking layer for Amazon EC2
-	- A virtual network dedicated to a customer's AWS account
-	- Subnet
-		○ A range of IP addresses in VPC
+- Networking layer for Amazon EC2
+- A virtual network dedicated to a customer's AWS account
+- Subnet
+	- A range of IP addresses in VPC
 
 #### Securing a VPC
-	- Network Access Control Lists
-		○ Control traffic at the subnet level
-	- Security Groups
-		○ Control traffic at the instance level
-	- Flow Logs
-		○ Capture network flow information
-	- Host-based firewalls 
-		○ Operating system firewalls
+- Network Access Control Lists
+- Control traffic at the subnet level
+- Security Groups
+	- Control traffic at the instance level
+- Flow Logs
+	- Capture network flow information
+- Host-based firewalls 
+	- Operating system firewalls
 	
 #### Summary
-	- Build a VPC (Virtual Network in Clould
-	- Configure Public and Private Subnets
-	- Secure network using ACLs
-	- Create Another layer of security at the instance level using security groups.
+- Build a VPC (Virtual Network in Clould
+- Configure Public and Private Subnets
+- Secure network using ACLs
+- Create Another layer of security at the instance level using security groups.
 
-## Security
-	- Offer security, identity, and compliance services
+## Security	
+- Offer security, identity, and compliance services
 
 ### Options
-	- AWS Identity and Access Management, or IAM,
-	- AWS Shared Responsibility Model
-	-  AWS Cloud compliance.
+- AWS Identity and Access Management, or IAM,	
+- AWS Shared Responsibility Model
+- AWS Cloud compliance.
 
 #### Amazon IAM
-	- Securely manage access to AWS services an resources 
-		○ Fine-grained access control to AWS resources
-		○ Multi-factor Authentication
-		○ The ability to analyze access
-		○ Integration with Corporate directories
+- Securely manage access to AWS services an resources 
+	- Fine-grained access control to AWS resources
+	- Multi-factor Authentication
+	- The ability to analyze access
+	- Integration with Corporate directories
 
 #### Cloud Security
-	- Inherit benefits from AWS data cnter and network architechure
-	- Similar to on premise data centers, without maintaining facilites and hardware
-	- Can be easily automated
-	- Inherit all the best practices of AWS
+- Inherit benefits from AWS data cnter and network architechure
+- Similar to on premise data centers, without maintaining facilites and hardware
+- Can be easily automated
+- Inherit all the best practices of AWS
 	
 #### AWS Shared Responsibility Model
-	- AWS is responsibility of the security of the cloud
-	- AWS is also responsible for the security configurations of it's products that are considered to be managed services, such as Amazon RDS
-	- Customers are responsible for Security in the cloud
+- AWS is responsibility of the security of the cloud
+- AWS is also responsible for the security configurations of it's products that are considered to be managed services, such as Amazon RDS
+- Customers are responsible for Security in the cloud
 
 #### AWS Cloud Compliance
-	- Sharing Information
-		○ Obtaining industry certifications and independent third-party attestations
-		○ Publishing information about the AWS security and control practices in whitepapers and website content
-		○ Providing certificates, reports, and other documents directly to AWS customers under NDA
+- Sharing Information
+	- Obtaining industry certifications and independent third-party attestations
+	- Publishing information about the AWS security and control practices in whitepapers and website content
+	- Providing certificates, reports, and other documents directly to AWS customers under NDA
 	- Assurance Programs
 		○ Certifications and attestations
 		○ Laws, regulations and privacy
 		○ Alignments and frameworks
 
 #### Summary
-	- AWS Shared Responsibility Model
-		○ AWS handles the infrastructure piece and their manage services, while customers are responsible for securing the data and resources they build in the cloud
-			§ AWS gives customers the tools they need to meet that end, but its up to them to implement them.
+- AWS Shared Responsibility Model
+	- AWS handles the infrastructure piece and their manage services, while customers are responsible for securing the data and resources they build in the cloud
+	- AWS gives customers the tools they need to meet that end, but its up to them to implement them.
 	
 ##  AWS Management Interfaces
-	- AWS Management Console
-		○ Graphical interface to facilitates cloud management
-	- Command Line Interfaces (AWS CLI)
-		○ Access to services via discrete command
-	- Software Development Kits
-		○ Access services in your code 
+- AWS Management Console
+	- Graphical interface to facilitates cloud management
+- Command Line Interfaces (AWS CLI)
+	- Access to services via discrete command
+- Software Development Kits
+	- Access services in your code 
 
-## What else does AWS have to Offer
+
