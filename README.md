@@ -1,5 +1,4 @@
 # AWS_Technical_Training
-## General
 
 #### Goal: To be able to articulate the value of key AWS service and features, including:
 - Cloud computing overviews
@@ -31,7 +30,7 @@
 - High-Speed, low latency connection between AZs within a region.
 - POP consist of Edge locations and Regional Edge Cache servers.  The locations used by Amazon CloudFront to securely deliver data, videos, application and APIs to customers globally.
 	
-## AWS Core Technologies
+# AWS Core Technologies
 - Compute
 - Storage
 - Database
