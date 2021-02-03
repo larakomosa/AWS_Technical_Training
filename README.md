@@ -39,7 +39,7 @@
 - Management
 - Networking
 
-### Compute Services
+## Compute Services
 - Develop, deploy, run and scale workloads in the AWS Cloud
 - Amazon EC2 - Resize Compute Capacity
 - Amazon ECS Auto Scaling - Increase or Decrease instances
@@ -87,31 +87,30 @@
 	○ Class Load Balancer (classic instances)
 
 #### Summary
-	- Building Blocks on AWS
-	- Come in huge variety of hardware capabilities to meet the demands of any workload.
-	- AMIS can be applied to customize the software installation when launched.
-	- Can configure autoscaling and load balancing so application is always running the proper amount of instances
+- Building Blocks on AWS
+- Come in huge variety of hardware capabilities to meet the demands of any workload.
+- AMIS can be applied to customize the software installation when launched.
+- Can configure autoscaling and load balancing so application is always running the proper amount of instances
 	
 ## Storage:
 - A reliable, scalable and secure place for Data
 
-#### Services
+### Services
 - Amazon Elastic Block Store - Persistent level storage
 - Amazon S3 - Durable, scalable object storage
 - Amazon S3 Glacier - Data archiving and back up 
 - AWS Storage Gateway- Seamless and secure Integration
 - Amazon Elastic File System - File storage for Amazon EC2 instance
 
-#### Amazon Elastic Block Storage:
-- Network-attached block storage
-	○ Persist independently from instance
-	○ Used like a phyisical hard drive
-	○ Automatically replicated
-	○ Attached to any instance in the same AZ
-	○ One EBS volumne to one EC2 instance
-	○ One instance to many EBS volumes
-	○ EBS volumes can retain data after EC2 instance termination
-	○ Allow Point-in-Time Snapshots to S3 GB increments
+#### Amazon Elastic Block Storage: (Network-attached block storage)
+- Persist independently from instance
+- Used like a phyisical hard drive
+- Automatically replicated
+- Attached to any instance in the same AZ
+- One EBS volumne to one EC2 instance
+- One instance to many EBS volumes
+- EBS volumes can retain data after EC2 instance termination
+- Allow Point-in-Time Snapshots to S3 GB increments
 
 #### Amazon S3
 - Highly scalable object storage
