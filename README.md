@@ -120,11 +120,11 @@
 	- Media hosting
 	- Software Delivery
 - Storage Classes
-	○ Standard 
-	○ Standard - Infrequent Access (lower rate and per gigabyte retreival)
-	○ One Zone IA - Stores data in AZ.  Cost 20% less and do not need availability.  Good for back up copies of data
-	○ Amazon Glazer - Low Cost Data Archiving
-	○ S3 Intelligent Tiering (moves between 2 tiers)
+	- Standard 
+	- Standard - Infrequent Access (lower rate and per gigabyte retreival)
+	- One Zone IA - Stores data in AZ.  Cost 20% less and do not need availability.  Good for back up copies of data
+	- Amazon Glazer - Low Cost Data Archiving
+	- S3 Intelligent Tiering (moves between 2 tiers)
 
 
 ## Databases -purpose built for specific application use cases 
