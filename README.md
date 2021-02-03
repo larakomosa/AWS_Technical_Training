@@ -5,13 +5,13 @@
 	- AWS core technologies
 	- Breadth and Depth of AWS Services and Offerings
 	
-## What is Cloud: 
+### What is Cloud: 
 	- The cloud provides access to the same or similar resources through internet, as hosted by a cloud services platform.  The term itself comes from a time when internet resources or connectivity was often represented by a cloud in diagrams that illustrated connectivity and data flow.
 
-## What is Cloud Computing: 
+### What is Cloud Computing: 
 	-Cloud computing is on-demand delivery of compute power, database, storage, applications and other IT resources via the Internet with pay as you go pricing.
 	
-## Advantages to Cloud Computing:
+### Advantages to Cloud Computing:
 	- Trade capital expense for variable expense
 	- Benefit from massive economies of scale
 	- Stop guessing capacity
