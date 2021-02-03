@@ -82,9 +82,9 @@
 - Configure health checks
 - Offload encryption and decryption
 - Types:
-	○ Application Load Balancer (app layer)
-	○ Network Load Balancer (network layer)
-	○ Class Load Balancer (classic instances)
+	- Application Load Balancer (app layer)
+	- Network Load Balancer (network layer)
+	- Class Load Balancer (classic instances)
 
 #### Summary
 - Building Blocks on AWS
@@ -115,10 +115,10 @@
 #### Amazon S3
 - Highly scalable object storage
 - Common s3 Use Cases:
-	○ Backup and storage 
-	○ Application hosting
-	○ Media hosting
-	○ Software Delivery
+	- Backup and storage 
+	- Application hosting
+	- Media hosting
+	- Software Delivery
 - Storage Classes
 	○ Standard 
 	○ Standard - Infrequent Access (lower rate and per gigabyte retreival)
