@@ -1,9 +1,9 @@
 # AWS_Technical_Training
 
 ## Goal:  To be able to articulate the value of key AWS service and features, including:
-	- Cloud computing overviews
-	- AWS core technologies
-	- Breadth and Depth of AWS Services and Offerings
+- Cloud computing overviews
+- AWS core technologies
+- Breadth and Depth of AWS Services and Offerings
 	
 ### What is Cloud: 
 	- The cloud provides access to the same or similar resources through internet, as hosted by a cloud services platform.  The term itself comes from a time when internet resources or connectivity was often represented by a cloud in diagrams that illustrated connectivity and data flow.
