@@ -230,5 +230,137 @@
 	- Access to services via discrete command
 - Software Development Kits
 	- Access services in your code 
+	
+## AWS Services to Solutions
+- Adapt AWS Solutions to Meet Customer Challenges
+- Adapt AWS architechural and cost optimazation best practices
+
+#### Content
+- Describing the customer challenge
+- Outlining the initial AWS Solution
+- Diving Deeper
+	- Migration approaches
+	- Architectural best practices
+	- Well architected framework
+	- Use Cases
+
+#### AWS Solutions
+- Machine Learning
+- Analytics and Data Lakes
+- Internet of Things
+- Serverless Computing
+- Containers
+- Enterprise Applications
+- Storage
+- Windows Workloads 
+
+#### Addressing Customer Challenges
+Ex: AnyCompany Apparel
+- Acquiring ExampleCorp
+- eCommerce Site is slow
+- Created by Contractor
+- Not enough resources
+- Not PCI compliant
+- Relies upon contractor
+- Prefer less hands on
+
+#### Migration Strategies
+- Rehost
+- Replatform
+- Refactor
+- Retire
+- Retain
+- Repurchase
+
+#### Rehost
+- Recreating the on-premises network, only hosted on AWS
+- Automating with tools such as AWS VM Import/Export
+- Easier to optimize and re-architect applications after the migration
+
+#### Replatform:  life, tinker, and shift
+- Retaining the core architecture
+- Making targeted AWS cloud optimizations
+- Examples
+	- Migrating databases to Amazon RDS
+	- Migrating applications to Amazon Elastic Beanstalk
+
+#### Refactoring
+- Re-imagining how the application is architected and developed 
+- Using could-native features
+
+#### Retire
+- Shutting off non-useful applications
+- Reducing spend, management, and security
+
+#### Retain/Revisit
+- Keeping certain applications on-premises
+
+#### Repurchase
+- Moving workflows to software as a service (SaaS)
+
+## Best Practices 
+- Design for failure and nothing fails
+- Avoid single points of failure
+- Multiple instances
+- Multiple availability Zones
+- Separate single server into multiple tiered application
+	- For Amazon RDS, use Multi-AZ feature
+- Build Security in every layer
+	- Encrpyt Data at rest and in transit
+	- Enforce principle of least privilege in IAM
+	- Implement both Security Groups and Network Access Control Lists
+	- Consider advanced security features and services 
+- Leverage Different Storage Options
+	- Move static web assets to Amazon S3
+	- Use Amazon CloudFront to serve globally
+	- Store session state in DynamoDB
+	- Use Elasticache between hosts and databases
+- Implement Elasticity
+	- Implemnt Auto Scaling polices
+	- Architect resiliency to reboot and relaunch
+	- Leverage managed serves like Amazon s3 and Amazon DynamoDB
+- Think Parallel
+	- Scale horizontally, not vertically
+	- Decouple compute from session/state
+	- Use Elastic Load Balancing
+	- Right-Size your infrastructure
+- Loose Coupling sets you free
+	- Instead of a single ordered workflow, use multiple queues
+	- Use Amazon Simple Queue Service and Simple Notification Service (SQS and SNS)
+	- Leverage existing services 
+- Don’t fear constraints
+	- Rethink traditional constraints
+	- Need more RAM
+	- Better IOPS for databases
+	- Response to failure?
+
+## Well-Architected Framework
+- A framework for ensuring infrastructures are:
+	- Secure
+	- High-Performing
+	- Resilient
+	- Efficient
+- Practices developed through revieing customers architectures on AWWS
+- Systematic approach for evaluating and implementing architectures
+- Well-Architected took in the console
+
+#### Five Pillars of Architecture
+- Operational excellence
+- Security
+- Reliability
+- Performance Efficiency
+- Cost Optimization
+	
+#### Cost Optimization (pay for what you need)
+- Right-sizing instances
+- Increase elasticity
+- Choosing the right pricing model
+- Optimizing Storage
+
+
+## AWS Solutions
+- Definition of an AWS Solution - Vetted, technical reference implementations designed to help customers solve common problems and build faster - http://aws.amazon/solutions
+- AWS Solution Space provides customers who need help deploying an AWS solution by highlighting AWS competency partner solutions- http://aws.amazon.com/solutionspace.
+
 
 
