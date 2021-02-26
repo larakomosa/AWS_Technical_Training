@@ -172,7 +172,6 @@
 - Security Groups
 	- Control traffic at the instance level
 - Flow Logs
-	- Capture network flow information
 - Host-based firewalls 
 	- Operating system firewalls
 	
